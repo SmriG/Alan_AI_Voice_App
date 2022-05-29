@@ -5,7 +5,7 @@ import useStyles from './styles.js';
 import wordsToNumbers from 'words-to-numbers';
 
 
-const alanKey = '0331def61a90339664644cebf7c37ebc2e956eca572e1d8b807a3e2338fdd0dc/stage';
+const alanKey = process.env.ALAN_KEY;
 const App = ()=>{
   const classes  = useStyles();
 
